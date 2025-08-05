@@ -1,0 +1,62 @@
+.svg-container {
+  position: relative;
+  width: 100%;
+  padding-top: 55.55%; /* Maintains 900x500 aspect ratio */
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+}
+
+.pin {
+  cursor: pointer;
+  fill: green;
+}
+
+#contextMenu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+#savePinBtn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+#removePinBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+#savePinBtn:hover, #removePinBtn:hover {
+  opacity: 0.9;
+}
+.map-pin {
+  cursor: pointer;
+  stroke: black;
+  stroke-width: 1;
+}
