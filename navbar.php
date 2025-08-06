@@ -183,7 +183,7 @@
   </div>
   <ul id="menu">
     <li><a href="index.php">Home</a></li>
-    <li><a href="facilities.php">Facilities</a></li>
+    <li><a href="inquiries.php">Inquiries</a></li>
     <li><a href="about.php">About</a></li>
     <li><a href="gallery.php">Gallery</a></li>
     <li><a href="feedbacks.php">Feedbacks</a></li>
